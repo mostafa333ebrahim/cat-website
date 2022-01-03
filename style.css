@@ -1,3 +1,12 @@
+
+#container{
+    background-color: aquamarine;
+}
+
 img.small {
+
     width: 300px;
 }
+li a:hover {
+    background-color: rgb(16, 109, 66);
+  }

@@ -8,54 +8,150 @@
 
         <!-- style -->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+        </style>
+        
     </head>
     <body>
+        <div >
+        <div id="logo" style="text-align:left;margin-bottom: 5px;">
         
-        <!-- logo -->
-        <img src="img/logo.png" alt="logo">
-        <span>KTMeyaw</span>
-
+        <span style="color: red; font-size: 50px;">KTMeyaw</span>
+        </div >
         <!-- navbar -->
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact us</a></li>
+        <ul style="list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;">
+            <li style="display: inline;margin-right: 50px;font-size: x-large;float: left;"><a href="#" style=" display: inline;text-decoration: none;display:inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;">Home</a></li>
+            <li style="display: inline;margin-right: 50px;font-size: x-large;float: left;"><a href="#" style=" display: inline;display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;">Gallery</a></li>
+            <li style="display: inline;margin-right: 50px;font-size: x-large;float: left;"><a href="#" style=" display: inline;display:inline-block ;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;">Products</a></li>
+            <li style="display: inline;margin-right: 50px;font-size: x-large;float: left;"><a href="#" style=" display: inline;display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;">Contact us</a></li>
         </ul>
 
         <!-- main content -->
         <div>
-            <h1>KTMeyaw makes you happy</h1>
-            <p>If you are sad or angry, check out some of our cat photos and smile to be happy</p>
+            <div style="background: wheat; margin-bottom: 0px;">
+                <h1 style="background-color: black;
+                color: white;text-decoration: underline;">KTMeyaw makes you happy</h1>
+                <p style="text-indent: 50px;font-size: 20px;">If you are sad or angry, check out some of our cat photos and smile to be happy</p>
 
-            <h1>What is a cat?</h1>
-            <p>A cat is a small animal that can be kept as a pet. <a target="_blank" href="https://en.wikipedia.org/wiki/Cat">Read more on Wikipedia</a></p>
-
-            <h1>What do cats like?</h1>
-            <ol>
-                <li>Sleeping</li>
-                <li>Scratching</li>
-                <li>Playing around</li>
-                <li>Hiding</li>
-                <li>Meowing </li>
-            </ol>
-
-            <h1>What do cats hate?</h1>
-            <ol>
-                <li>Loud noises</li>
-                <li>Medicine</li>
-                <li>Spoiled food</li>
-                <li>Dirty litter boxes</li>
-            </ol>
-
-            <h1>Some cat images</h1>
-            <div>
-                <img class="small" src="img/cat1.jpg" alt="cat image">
-                <img class="small" src="img/cat2.jpg" alt="cat image">
-                <img class="small" src="img/cat3.jpg" alt="cat image">
-                <img class="small" src="img/cat4.jpg" alt="cat image">
             </div>
-            <p><a href="https://www.pexels.com/search/cat/">More images on Pexels</a></p>
+            
+            <div style="background: wheat; margin-bottom: 0px;">
+                <h1 style="background-color: black;
+                color: white;text-decoration: underline;">What is a cat?</h1>
+            <p  style="text-indent: 50px;font-size: 20px;">A cat is a small animal that can be kept as a pet. <a target="_blank" href="https://en.wikipedia.org/wiki/Cat">Read more on Wikipedia</a></p>
+
+            </div>
+            
+            <h1 style="background: wheat; margin-bottom: 0px;">
+                <h1 style="background-color: black;
+                color: white;text-decoration: underline;">What do cats like?</h1>
+            <ol style="background: #ff9999;
+            padding: 20px;">
+                <li style=" background: #ffe5e5;
+                padding: 5px;
+                margin-left: 35px;font-size: larger;">Sleeping</li>
+                <li style=" background: #ffe5e5;
+                padding: 5px;
+                margin-left: 35px;font-size: larger;">Scratching</li>
+                <li style=" background: #ffe5e5;
+                padding: 5px;
+                margin-left: 35px;font-size: larger;">Playing around</li>
+                <li style=" background: #ffe5e5;
+                padding: 5px;
+                margin-left: 35px;font-size: larger;">Hiding</li>
+                <li style=" background: #ffe5e5;
+                padding: 5px;
+                margin-left: 35px;font-size: larger;"> Meowing </li>
+            </ol>
+
+            <h1 style="background: wheat; margin-bottom: 0px;">
+                <h1 style="background-color: black;
+                color: white;text-decoration: underline;">What do cats hate?</h1>
+            <ol style="background: #3399ff;
+            padding: 20px;">
+                <li style="background: #cce5ff;
+                margin: 5px;">Loud noises</li>
+                <li style="background: #cce5ff;
+                margin: 5px;">Medicine</li>
+                <li style="background: #cce5ff;
+                margin: 5px;">Spoiled food</li>
+                <li style="background: #cce5ff;
+                margin: 5px;">Dirty litter boxes</li>
+            </ol>
+
+            <h1 style="style="background: wheat; margin-bottom: 0px;">
+                <h1 style="background-color: black;
+                color: white;text-decoration: underline;"">Some cat images</h1>
+                <div style="display: block;">
+                <div class="gallery">
+                    <a target="_blank" href="img_5terre.jpg">
+                      <img src="img/cat1.jpg" alt="cat image" width="600" height="400">
+                    </a>
+                    <div class="desc">cat 1</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="img_forest.jpg">
+                      <img src="img/cat2.jpg" alt="cat image" width="600" height="400">
+                    </a>
+                    <div class="desc">cat 2</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="img_lights.jpg">
+                      <img src="img/cat3.jpg" alt="cat image" width="600" height="400">
+                    </a>
+                    <div class="desc">cat 3</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="img_mountains.jpg">
+                      <img src="img/cat4.jpg" alt="cat image" width="600" height="400">
+                    </a>
+                    <div class="desc">cat 4</div>
+                  </div>
+                </div>
+            <p style="display: block;font-size: x-large;"><a href="https://www.pexels.com/search/cat/;">More images on Pexels</a></p>
 
             <h1>Subscribe to our website</h1>
             <form>
@@ -68,6 +164,7 @@
         <diV>
             <!-- TODO: add a footer -->
         </diV>
+    </div>
 
     </body>
 </html>
